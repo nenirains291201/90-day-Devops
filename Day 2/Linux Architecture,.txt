@@ -1,0 +1,20 @@
+Linux Architecture, 
+
+Processes, 
+
+Linux play an very important role in devops as it has covers 75 to 80% of the devops.
+
+The kernal is the heart of Linux. Just like the center part.
+Linux has three main parts: the kernel, user space, and the init system, which is usually systemd. The kernel is the main part of the operating system that controls the computer’s hardware, such as memory, CPU, storage, and devices. User space is where normal programs and applications run, like browsers, text editors, and command-line tools. These programs ask the kernel whenever they need to use hardware resources. When the computer starts, the kernel launches the first process called init, and in most modern Linux systems this is handled by systemd, which manages system services and startup tasks.
+
+
+Process in Linux
+Processes in Linux are created and managed by the kernel. When a user runs a program, Linux creates a new process using a method called fork(), and then loads the program using exec(). Each process gets a unique Process ID (PID). The kernel manages these processes by giving them CPU time, controlling memory usage, and tracking their status, such as running or waiting. This allows Linux to run many programs at the same time smoothly.
+
+
+Systemd
+systemd is important because it manages services and system processes after the system boots. It starts background services, monitors them, restarts them if they fail, and manages system logs. It also helps the system boot faster and makes Linux easier to manage. Because of this, systemd is an important part of modern Linux systems.
+
+
+This is for the day 2 
+We just started practicing the commands as well as learning Github also.
