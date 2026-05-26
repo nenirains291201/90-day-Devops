@@ -12,12 +12,11 @@ ps aux | head
 
 Output:
 
-```bash
-```   sandbox@playground:~$ ps
+``` sandbox@playground:~$ ps
     PID TTY          TIME CMD
      13 pts/1    00:00:00 bash
      50 pts/1    00:00:00 ps
-
+```  
 Observation:
 
 - Shows currently running processes
@@ -33,7 +32,17 @@ top
 
 Output:
 
-```bash
+```
+top - 17:32:15 up 11 days,  6:45,  0 users,  load average: 0.24, 0.08, 0.02
+Tasks:   3 total,   1 running,   2 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.3 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  32096.1 total,  29063.0 free,    841.3 used,   2191.7 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  30835.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                       
+      1 sandbox   20   0    4628   3684   3236 S   0.0   0.0   0:00.02 bash                                                                          
+     13 sandbox   20   0    4628   3816   3204 S   0.0   0.0   0:00.08 bash                                                                          
+     52 sandbox   20   0    7312   3468   2916 R   0.0   0.0   0:00.01 top
 ```
 
 Observation:
