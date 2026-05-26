@@ -13,7 +13,10 @@ ps aux | head
 Output:
 
 ```bash
-```
+```   sandbox@playground:~$ ps
+    PID TTY          TIME CMD
+     13 pts/1    00:00:00 bash
+     50 pts/1    00:00:00 ps
 
 Observation:
 
