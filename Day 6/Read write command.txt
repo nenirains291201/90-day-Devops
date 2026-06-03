@@ -1,0 +1,50 @@
+Linux fundamental Read and write commands 
+
+
+Commands perform
+1. touch notes.txt
+here i have created a empty file named notes.txt
+
+2. write the first line to the file.
+here i have written a "line 1" to the file.
+and if the line contains some data it will be overwritten.
+
+3.Append additional lines 
+echo "line 2" >> notes.txt
+echo "line 3" >> notes.txt
+now i have added new lines to the end of the file without removing existing content.
+
+4. Use tee to write and display output
+echo "Line 4" | tee -a notes.txt
+it displays the text on the terminal and appends it to the file.
+
+5. Add more lines
+echo "Line 5" >> notes.txt
+echo "Line 6" >> notes.txt
+echo "Line 7" >> notes.txt
+echo "Line 8" >> notes.txt
+Appends additional lines to keep the file between 8 to 10 lines.
+
+6. Display the complete file.
+cat notes.txt
+shows all content of the files.
+
+7. display first 2 lines
+head -n 2 notes.txt
+this commands displays first two lines for the file.
+
+8. display last 2 lines
+tail -n 2 notes.txt
+this commands displays last two lines for the file.
+
+
+
+Commands and Their Purpose
+touch – Creates an empty file.
+echo – Writes text to a file.
+> – Writes data and overwrites existing content.
+>> – Appends data to an existing file.
+tee -a – Displays output and appends it to a file.
+cat – Displays the entire file content.
+head – Displays the beginning of a file.
+tail – Displays the end of a file.
